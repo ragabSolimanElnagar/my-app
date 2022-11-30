@@ -1,6 +1,6 @@
 import SearchForm from "../search-form/SearchForm"
 import SearchResult from "../search-result/SearchResult"
-import styles from '../../styles/Home.module.css'
+import styles from '../../../styles/Home.module.css'
 import { connect } from "react-redux"
 
 const AppRoot = ({ data }: any) => {

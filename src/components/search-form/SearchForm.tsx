@@ -2,8 +2,8 @@
 import React, { useEffect } from 'react';
 import { ChangeEvent } from 'react'
 import { connect } from 'react-redux';
-import { fetchData, resetStore } from '../../utils/redux/action';
-import styles from '../../styles/Home.module.css'
+import { fetchData, resetStore } from '../../../utils/redux/action';
+import styles from '../../../styles/Home.module.css'
 
 const SearchForm = ({ fetchData, resetStore }: any) => {
     const [searchValue, setSearchValue] = React.useState('');

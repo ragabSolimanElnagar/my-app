@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { Card } from './Card';
-import styles from '../../styles/Home.module.css'
+import styles from '../../../styles/Home.module.css'
 
 const SearchResult = ({ data }: any) => {
 
